@@ -1,0 +1,12 @@
+---
+# defaults file for ansible-role-win-azcopy
+
+# https://azcopyvnext.azureedge.net/release20200818/azcopy_windows_amd64_10.6.0.zip
+
+azcopy_version_major: 10
+azcopy_version: '10.6.0'
+
+azcopy_download_url: 'https://aka.ms/downloadazcopy-v{{ azcopy_version_major }}-windows'
+azcopy_unzip_subfoldername: 'azcopy_windows_amd64_{{ azcopy_version }}'
+azcopy_filename_zip: 'azcopy_windows_amd64_{{ azcopy_version }}.zip'
+azcopy_filename_exe: azcopy.exe
